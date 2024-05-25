@@ -68,14 +68,14 @@
 
 
 ## Table experimental results ###
-| Model | Dataset | F1 | Precision | Recall | lr | name |
-| --- | --- | :---: | :---: | :---: | :---: | :---: |
+| Model | F1 | Precision | Recall | lr | name |
+| --- | :---: | :---: | :---: | :---: | :---: |
 | **Full dataset** |
-| XLM-RoBERTa-base | EN-Finance-NER-dataset | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| XLM-RoBERTa-large | EN-Finance-NER-dataset | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-BASE | EN-Finance-NER-dataset | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-LARGE | EN-Finance-NER-dataset | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-Large-Finance | EN-Finance-NER-dataset | XX.XX | XX.XX | XX.XX | XXX | XXX |
+| XLM-RoBERTa-base  | XX.XX | XX.XX | XX.XX | XXX | XXX |
+| XLM-RoBERTa-large  | XX.XX | XX.XX | XX.XX | XXX | XXX |
+| WangchanBART-BASE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
+| WangchanBART-LARGE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
+| WangchanBART-Large-Finance  | XX.XX | XX.XX | XX.XX | XXX | XXX |
 
 ## Hyperparameters ###
 | Hyperparameter | Value |
