@@ -32,11 +32,11 @@
 
 
 ## Data collection ###
-| Source | Language | Mentions | Tokens | Documents |
-| --- | --- | --- | --- | --- |
-| Total | ALL | 249,858| XXX | XXX |
-| - | TH | XXX | XXX | XXX |
-| - | EN | XXX | XXX | XXX |
+Language | Mentions | Tokens | Documents |
+| --- | --- | --- | --- |
+| ALL | 249,858| XXX | XXX |
+| TH | XXX | XXX | XXX |
+| EN | XXX | XXX | XXX |
 
 | Source | Language | Mentions | Tokens | Documents |
 | --- | --- | --- | --- | --- |
@@ -59,12 +59,12 @@
 
 
 ## Dataset statistics ###
-- **Finance-NER-dataset (Standard split: 70/10/20)**:
-    | Dataset | Mentions | Tokens | Documents |
-    | --- | --- | --- | --- |
-    | Train | XXX | XXX | XXX |
-    | Dev | XXX | XXX | XXX |
-    | Test | XXX | XXX | XXX |
+**Finance-NER-dataset (Standard split: 70/10/20)**
+| Dataset | Mentions | Tokens | Documents |
+| --- | --- | --- | --- |
+| Train | XXX | XXX | XXX |
+| Dev | XXX | XXX | XXX |
+| Test | XXX | XXX | XXX |
 
 
 ## Table experimental results ###
@@ -76,6 +76,7 @@
 | WangchanBART-BASE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
 | WangchanBART-LARGE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
 | WangchanBART-Large-Finance  | XX.XX | XX.XX | XX.XX | XXX | XXX |
+
 
 ## Hyperparameters ###
 | Hyperparameter | Value |
