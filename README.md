@@ -14,41 +14,39 @@
 ```
 
 ## Reference ###
-- **Paper**: https://www.overleaf.com/
-- **Code**: xxx
-- **Dataset**: xxx
-- **Guideline**: xxx
-- **Checkpoints**: xxx
+- **Paper**: https://www.overleaf.com
+- **Guideline**: [Link](https://drive.google.com/drive/folders/1-atFWh69MJ7vsAsa_1WQm6YhYe-4IGa3?usp=sharing)
+- **Dataset**: [Link](https://drive.google.com/open?id=1-YXGnr9v-th1Uc-OzuLXDkc3qlxuPVrg&usp=drive_fs)
+- **Colab**: [Link](https://colab.research.google.com/drive/1v_cs14tJp9yY4HwWJ2C3IjFLSb77PC9F?usp=share_link)
+- **Checkpoints**: [Link](https://drive.google.com/open?id=1-AM4QF9R4q5di9JZu_qRJBXz_XTL27Wd&usp=drive_fs)
 
 
 ## Experimental setup ###
 | Pre-trained model |
 | --- |
-| XLM-RoBERTa-base |
-| XLM-RoBERTa-large |
 | WangchanBART-BASE |
 | WangchanBART-LARGE |
 | WangchanBART-Large-Finance |
+| XLM-RoBERTa-base |
+| XLM-RoBERTa-large |
 
 
-## Data collection ###
-Language | Mentions | Tokens | Documents |
+## Dataset statistics ###
+Language | Documents | Mentions | Tokens |
 | --- | --- | --- | --- |
-| ALL | 249,858| XXX | XXX |
-| TH | XXX | XXX | XXX |
-| EN | XXX | XXX | XXX |
+| ALL | 48,376 | 252,904 | 3,871,094
+| TH | 3,280 | 120,274 |1,364,839 |
+| EN | 11,428 | 132,630 | 2,506,255 |
 
-| Source | Language | Mentions | Tokens | Documents |
+| Source | Language | Documents | Mentions | Tokens |
 | --- | --- | --- | --- | --- |
-| Kaohoon | TH | XXX | XXX | XXX |
-| Kasikorn-stock | TH | XXX | XXX | XXX |
-| Kasikorn-trading | TH | XXX | XXX | XXX |
-| Pachachat-finance | TH | XXX | XXX | XXX |
-| PostToday-finance | TH | XXX | XXX | XXX |
-| Reddit-investing | EN | XXX | XXX | XXX |
-| Reddit-robinhood | EN | XXX | XXX | XXX |
-| Reddit-stocks | EN | XXX | XXX | XXX |
-
+| Pachachat-finance | TH | 740 | 32,390 |401,737 |
+| PostToday-finance | TH | 1,000 | 34,408 | 477,372 |
+| Kaohoon | TH | 1,140 | 40,301 | 370,280 |
+| Kasikorn | TH | 400 | 13,175 | 146,907 |
+| Reddit-investing | EN | 5,567 | 71,589 | 1,410,788 |
+| Reddit-robinhood | EN | 322 | 2,179 | 42,976 |
+| Reddit-stocks | EN | 5,539 | 58,862 | 1,052,491 |
 
 ## Kappa agreement score ###
 | Items | Score |
@@ -58,25 +56,15 @@ Language | Mentions | Tokens | Documents |
 | English | 0.77 |
 
 
-## Dataset statistics ###
-**Finance-NER-dataset (Standard split: 70/10/20)**
-| Dataset | Mentions | Tokens | Documents |
-| --- | --- | --- | --- |
-| Train | XXX | XXX | XXX |
-| Dev | XXX | XXX | XXX |
-| Test | XXX | XXX | XXX |
-
-
 ## Table experimental results ###
-| Model | F1 | Precision | Recall | lr | name |
-| --- | :---: | :---: | :---: | :---: | :---: |
+| Model | Precision | Recall | F1(%) |
+| --- | :---: | :---: | :---: | 
 | **Full dataset** |
-| XLM-RoBERTa-base  | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| XLM-RoBERTa-large  | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-BASE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-LARGE  | XX.XX | XX.XX | XX.XX | XXX | XXX |
-| WangchanBART-Large-Finance  | XX.XX | XX.XX | XX.XX | XXX | XXX |
-
+| WangchanBART-BASE  | 80.40 | 87.02 | 83.58 |
+| WangchanBART-LARGE  | 81.74 | 88.20 | 84.84 |
+| WangchanBART-Large-Finance  | 78.97 | 85.82 | 82.25 |
+| XLM-RoBERTa-base  | 82.44 | 86.72 | 84.53 |
+| XLM-RoBERTa-large  |84.00 | 87.70 | 85.81 |
 
 ## Hyperparameters ###
 | Hyperparameter | Value |
@@ -85,10 +73,6 @@ Language | Mentions | Tokens | Documents |
 | Dropout | 0.5 |
 | Seed | 42 |
 | Batch size | 8 |
-| Epochs | 100 |
-| Early stopping | 8 |
-| Eval per epoch | 4 |
-
 
 ## Train script
 ```bash
