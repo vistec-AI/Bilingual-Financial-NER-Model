@@ -14,7 +14,7 @@
 ```
 
 ## Reference ###
-- **Paper**: https://www.overleaf.com
+- **Paper**: TBA
 - **Guideline**: [Link](https://drive.google.com/drive/folders/1-atFWh69MJ7vsAsa_1WQm6YhYe-4IGa3?usp=sharing)
 - **Dataset**: [Link](https://drive.google.com/open?id=1-YXGnr9v-th1Uc-OzuLXDkc3qlxuPVrg&usp=drive_fs)
 - **Colab**: [Link](https://colab.research.google.com/drive/1v_cs14tJp9yY4HwWJ2C3IjFLSb77PC9F?usp=share_link)
