@@ -16,7 +16,7 @@
 ## Reference ###
 - **Paper**: TBA
 - **Guideline**: [Link](https://drive.google.com/drive/folders/1-atFWh69MJ7vsAsa_1WQm6YhYe-4IGa3?usp=sharing)
-- **Dataset**: [hf](https://huggingface.co/datasets/weerayut/thai-english-financial-ner)
+- **Dataset**: [Link](https://drive.google.com/open?id=1-YXGnr9v-th1Uc-OzuLXDkc3qlxuPVrg&usp=drive_fs), [HF](https://huggingface.co/datasets/weerayut/thai-english-financial-ner)
 - **Colab**: [Link](https://colab.research.google.com/drive/1v_cs14tJp9yY4HwWJ2C3IjFLSb77PC9F?usp=share_link)
 - **Checkpoints**: [Link](https://drive.google.com/open?id=1-AM4QF9R4q5di9JZu_qRJBXz_XTL27Wd&usp=drive_fs)
 
