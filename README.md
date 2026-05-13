@@ -2,15 +2,8 @@
 
 ## Setup environment ##
 ```bash
-    conda create -n cmdf python=3.9 numpy matplotlib
-    conda activate cmdf
-    pip install numpy
-    pip install matplotlib
-    pip install torch==2.0.1+cu117
-    pip install transformers==4.33.3
-    pip install tabulate
-    pip install seqeval
-    pip install -q gradio 
+    python -m venv .venv
+    pip install -r requirements.txt
 ```
 
 ## Reference ###
